@@ -17,12 +17,12 @@
 	   type AltaString string                        // create an alias for the type string
    
 	   // This will NOT work because of Go's "Highly Typed" framework
-	   /*
-	   const myString string            = "Hello"
+	  
+	   const myString             = "Hello"
 	   var zString AltaString         = myString     // this will not work, we cannot MIX types
    
 	   fmt.Println(zString)    // variables must be used or the compiler will throw an error
-	   */
+	   
    
 	   // This WILL work, "myUntypedString" is a untyped variable
 	   const myUntypedString          = "Alta3 Research"
