@@ -1,10 +1,24 @@
 
 package main 
 
-import "fmt"
+import (
+    "fmt"
+    "errors"
+)
+
+func testing() (string, int, error){
+
+    return "tt", 99, errors.New("ffffff")
+
+}
+
+
 
 func main() {
 
+
+    myname , _, _ := testing()
+    fmt.Println(myname)
     var name = "Brian Erickson"
     var city, state = "Hagerman", "New Mexico"
 
