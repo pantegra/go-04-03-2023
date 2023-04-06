@@ -35,7 +35,7 @@ type Social struct {
 
 func main() {
     // Open our jsonFile
-    jsonFile, err := os.Open("users.json")
+    jsonFile, err := os.Open("40-JSON/users.json")
     // if we os.Open returns an error then handle it
     if err != nil {
         panic(err)

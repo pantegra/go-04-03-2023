@@ -1,0 +1,18 @@
+<emails>
+<email>
+<note>
+<to>Tony Stark</to>
+<from>Steve Rogers</from>
+<subject>Request</subject>
+<body>The shield got broken up again. Any chance you send me a new one?</body>
+</note>
+</email>
+<email>
+<note>
+<to>Tony Bonehead</to>
+<from>Steve Doger</from>
+<subject>Request the Holy One`</subject>
+<body>The shield got broken up again. Any chance you can bail me out of jail?</body>
+</note>
+</email>
+</emails>
